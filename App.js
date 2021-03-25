@@ -7,48 +7,19 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  View,
-  Text,
-  StatusBar,
-  Modal,
-  Alert,
-} from 'react-native';
+import {SafeAreaView, StyleSheet, StatusBar, Alert, Button} from 'react-native';
 
 const App: () => React$Node = () => {
-  const [visible, setVisible] = React.useState(false);
-
-  const onShowModal = () => {
-    setVisible(true);
-  };
-
-  const onCloseBroken = () => {
-    setVisible(false);
-    Alert.alert('Alert', "Alert won't show");
-  };
-
-  const onCloseWorking = () => {
-    setVisible(false);
-    setTimeout(() => Alert.alert('Alert', 'Works fine'), 10);
+  const showAlert = () => {
+    Alert.alert('Alert', "Hey I'm an Alert!");
   };
 
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.container}>
-        <Text onPress={onShowModal}>Show modal</Text>
+        <Button onPress={showAlert} title="Show Alert" />
       </SafeAreaView>
-      <Modal
-        animationType="fade"
-        visible={visible}
-        onRequestClose={onCloseWorking}>
-        <View style={styles.container}>
-          <Text onPress={onCloseBroken}>Close modal immediately</Text>
-          <Text onPress={onCloseWorking}>Close modal with delay</Text>
-        </View>
-      </Modal>
     </>
   );
 };
