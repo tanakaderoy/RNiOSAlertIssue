@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MultiWindowAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MultiWindowAlertTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		26C5CFBE6C65572BFD06F1EA /* libPods-MultiWindowAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4C0D0F70667754A79D898 /* libPods-MultiWindowAlert.a */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MultiWindowAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MultiWindowAlertTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B78B4D0E24B374319F567947 /* libPods-MultiWindowAlert-MultiWindowAlertTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E31B4039B5B57973F51BB060 /* libPods-MultiWindowAlert-MultiWindowAlertTests.a */; };
+		BFB76D3C260C56C00098C0F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB76D3B260C56C00098C0F4 /* AppDelegate.swift */; };
+		BFB76D3D260C56C00098C0F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB76D3B260C56C00098C0F4 /* AppDelegate.swift */; };
+		BFB76D4B260C57290098C0F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB76D4A260C57290098C0F4 /* SceneDelegate.swift */; };
+		BFB76D4C260C57290098C0F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB76D4A260C57290098C0F4 /* SceneDelegate.swift */; };
 		C91EBCD319CCD774D196C64C /* libPods-MultiWindowAlert-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F08397C8B93F122B5E5EA9 /* libPods-MultiWindowAlert-tvOS.a */; };
 		D1D1BB14BC6D807AD0285049 /* libPods-MultiWindowAlert-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B53D2BDC6F4A06B2B9D19837 /* libPods-MultiWindowAlert-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -46,11 +46,8 @@
 		00E356F21AD99517003FC87E /* MultiWindowAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiWindowAlertTests.m; sourceTree = "<group>"; };
 		0D184DF337FA0371686D6D12 /* Pods-MultiWindowAlert-MultiWindowAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiWindowAlert-MultiWindowAlertTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiWindowAlert-MultiWindowAlertTests/Pods-MultiWindowAlert-MultiWindowAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MultiWindowAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiWindowAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MultiWindowAlert/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MultiWindowAlert/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MultiWindowAlert/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MultiWindowAlert/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MultiWindowAlert/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MultiWindowAlert-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiWindowAlert-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MultiWindowAlert-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultiWindowAlert-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F08397C8B93F122B5E5EA9 /* libPods-MultiWindowAlert-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiWindowAlert-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +58,8 @@
 		82818A43DDFDB061573A1C5D /* Pods-MultiWindowAlert-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiWindowAlert-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiWindowAlert-tvOSTests/Pods-MultiWindowAlert-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		911DFD9E45C3F9A3C1C3A324 /* Pods-MultiWindowAlert-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiWindowAlert-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MultiWindowAlert-tvOS/Pods-MultiWindowAlert-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B53D2BDC6F4A06B2B9D19837 /* libPods-MultiWindowAlert-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiWindowAlert-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB76D3B260C56C00098C0F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB76D4A260C57290098C0F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEC4C0D0F70667754A79D898 /* libPods-MultiWindowAlert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiWindowAlert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31B4039B5B57973F51BB060 /* libPods-MultiWindowAlert-MultiWindowAlertTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiWindowAlert-MultiWindowAlertTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E350F44BE85680E2CA35DF /* Pods-MultiWindowAlert-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiWindowAlert-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MultiWindowAlert-tvOSTests/Pods-MultiWindowAlert-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,12 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				BFB76D3B260C56C00098C0F4 /* AppDelegate.swift */,
+				BFB76D4A260C57290098C0F4 /* SceneDelegate.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = MultiWindowAlert;
 			sourceTree = "<group>";
@@ -194,7 +192,6 @@
 				82818A43DDFDB061573A1C5D /* Pods-MultiWindowAlert-tvOSTests.debug.xcconfig */,
 				E4E350F44BE85680E2CA35DF /* Pods-MultiWindowAlert-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,10 +291,11 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1240;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -568,8 +566,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				BFB76D3C260C56C00098C0F4 /* AppDelegate.swift in Sources */,
+				BFB76D4B260C57290098C0F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,8 +575,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+				BFB76D3D260C56C00098C0F4 /* AppDelegate.swift in Sources */,
+				BFB76D4C260C57290098C0F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D184DF337FA0371686D6D12 /* Pods-MultiWindowAlert-MultiWindowAlertTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -633,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68A7BAFD1F56ED237857669E /* Pods-MultiWindowAlert-MultiWindowAlertTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = MultiWindowAlertTests/Info.plist;
@@ -658,16 +658,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MultiWindowAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/React/React-Core.modulemap\" -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/yoga/Yoga.modulemap\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MultiWindowAlert;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiWindowAlert-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -680,6 +685,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = MultiWindowAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -688,7 +694,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MultiWindowAlert;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiWindowAlert-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -700,6 +708,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -716,6 +725,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MultiWindowAlert-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiWindowAlert-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -728,6 +740,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -744,6 +757,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MultiWindowAlert-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiWindowAlert-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -753,6 +768,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82818A43DDFDB061573A1C5D /* Pods-MultiWindowAlert-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -780,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4E350F44BE85680E2CA35DF /* Pods-MultiWindowAlert-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
