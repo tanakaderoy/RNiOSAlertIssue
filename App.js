@@ -12,6 +12,7 @@ import {SafeAreaView, StyleSheet, StatusBar, Alert, Button} from 'react-native';
 const App: () => React$Node = () => {
   const showAlert = () => {
     Alert.alert('Alert', "Hey I'm an Alert!");
+    //Now Not Working!!!
   };
 
   return (
